@@ -21,6 +21,8 @@ function createRandomFullName() {
     }
 }
 
+console.log(`Gli ${guests} invitati sono questi:`)
+
 //populate array of guests
 for(let i = 0; i < guests; i++) {
     createRandomFullName(); 
